@@ -1,0 +1,161 @@
+
+#mainnav {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  border: 2px solid black; 
+  font-family: courier;
+}
+  
+
+#mainnav a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  color: black;
+}
+
+
+
+#myphoto {
+  border-collapse: collapse;
+}
+
+#myphoto img {
+  border: 10px dashed black; 
+  border-radius: 10px;
+  padding: 10px;
+  width: 29%; 
+  align: center;
+}
+
+
+#myphoto {
+  border: 2px solid black; 
+}
+
+
+
+h1#impact-head {
+  font-family: Georgia, serif;
+  font-size: 70px;
+}
+
+h2#prof {
+  font-family: Arial, sans-serif;
+  border: 5px solid black;
+  font-size: 30px;
+  background-color: #f6cefc;
+}
+
+#profdiv {
+	display: flex;
+	width: 100%;
+	
+}
+
+.profdiv-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	width: 100%;
+}
+
+#res1 {
+	flex: 1;
+	background-color: white;
+	border: 2px solid black;
+}	
+
+#res2 {
+	flex: 3;
+	background-color: white;
+	border: 2px solid black;
+}	
+
+
+#divhero {
+	display: inline-block;
+	width: 100%;
+}
+
+.div.hero {
+	grid-gap: 20px;
+	display: inline-block;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+}
+
+#texthero {
+	flex: 1;
+	width: 100%;
+	text-align: center;
+	background-color: pink;
+	padding: 5px;
+	align-self: center;
+}
+
+#atticusfinch img {
+	flex: 1;
+	border: 5px solid black;
+	width: 19%;
+	max-width: 100%;
+	align: center;
+	border-radius: 10px;
+}
+
+#divimpact {
+	text-align: center;
+}
+
+#divreading img {
+	width: 100%;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+#divhwireframe img {
+	width: 80%;
+	border: 5px solid black;
+	border-radius: 10px;
+	
+}
+
+#divprofwireframe img {
+	width: 80%;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+#divperswireframe img {
+	width: 80%;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+#divtestresult img {
+	width: 100%;
+	border: 5px solid black;
+	border-radius: 10px;
+}
+
+#divpillars img {
+	width: 47%;
+	border: 5px solid black;
+	border-radius: 10px;
+	
+}
+
+#amandachronicles {
+	font-size: 19px;
+}
+
+
+#divref {
+	width: 100%;
+}
+
+
+
+
+
